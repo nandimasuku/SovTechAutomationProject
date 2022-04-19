@@ -1,0 +1,576 @@
+2022-04-14 13:10:46,657  INFO [main] SovTechContactUsForm:37 - Enter username
+ 2022-04-14 14:27:24,995  INFO [main] SovTechContactUsForm:37 - Enter username
+ 2022-04-14 15:24:41,451 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+ 2022-04-14 15:24:41,455 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-04-14 15:24:41,456 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-04-14 15:24:41,459 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@740d2e78
+ 2022-04-14 15:24:41,476 DEBUG [main] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-04-14 15:24:41,476 DEBUG [main] PlatformDependent0:954 - Java version: 17
+ 2022-04-14 15:24:41,477 DEBUG [main] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-04-14 15:24:41,477 DEBUG [main] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-04-14 15:24:41,478 DEBUG [main] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-04-14 15:24:41,479 DEBUG [main] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-04-14 15:24:41,479 DEBUG [main] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-04-14 15:24:41,480 DEBUG [main] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6eebc39e
+ 2022-04-14 15:24:41,481 DEBUG [main] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-04-14 15:24:41,481 DEBUG [main] PlatformDependent:1103 - sun.misc.Unsafe: available
+ 2022-04-14 15:24:41,495 DEBUG [main] PlatformDependent:1205 - maxDirectMemory: 4246732800 bytes (maybe)
+ 2022-04-14 15:24:41,495 DEBUG [main] PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\masun001\AppData\Local\Temp (java.io.tmpdir)
+ 2022-04-14 15:24:41,496 DEBUG [main] PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-04-14 15:24:41,496 DEBUG [main] PlatformDependent:1063 - Platform: Windows
+ 2022-04-14 15:24:41,498 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-04-14 15:24:41,498 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-04-14 15:24:41,499 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-04-14 15:24:41,500 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-04-14 15:24:41,505 DEBUG [main] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-04-14 15:24:41,523 DEBUG [main] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-04-14 15:24:41,524 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-04-14 15:24:41,681 DEBUG [main] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-04-14 15:24:41,681 DEBUG [main] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-04-14 15:24:41,698 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+ 2022-04-14 15:24:41,706 DEBUG [main] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+ 2022-04-14 15:24:41,706 DEBUG [main] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-04-14 15:24:41,799 DEBUG [main] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 16
+ 2022-04-14 15:24:41,800 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 16
+ 2022-04-14 15:24:41,800 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-04-14 15:24:41,800 DEBUG [main] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+ 2022-04-14 15:24:41,800 DEBUG [main] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+ 2022-04-14 15:24:41,800 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-04-14 15:24:41,800 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-04-14 15:24:41,800 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-04-14 15:24:41,800 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-04-14 15:24:41,800 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-04-14 15:24:41,801 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+ 2022-04-14 15:24:41,801 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-04-14 15:24:41,808 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-04-14 15:24:41,809 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-04-14 15:24:41,809 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-04-14 15:24:42,240 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 572 (auto-detected)
+ 2022-04-14 15:24:42,242 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+ 2022-04-14 15:24:42,243 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+ 2022-04-14 15:24:42,251 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-04-14 15:24:42,252 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-04-14 15:24:42,290 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 50:eb:71:ff:fe:2e:51:e4 (auto-detected)
+ 2022-04-14 15:24:42,329 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-04-14 15:24:42,329 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-04-14 15:24:42,329 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@20912601
+ 2022-04-14 15:24:42,344 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-04-14 15:24:42,344 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+ 2022-04-14 15:24:42,345 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+ 2022-04-14 15:24:42,345 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+ 2022-04-14 15:24:42,345 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+ 2022-04-14 15:24:43,538 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-04-14 15:24:43,681 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x424bec9a27fc2f38
+ 2022-04-14 15:25:21,447  INFO [main] SovTechContactUsForm:35 - Enter username
+ 2022-04-14 22:47:17,453 DEBUG [main] InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+ 2022-04-14 22:47:17,460 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-04-14 22:47:17,461 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-04-14 22:47:17,464 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@71b3bc45
+ 2022-04-14 22:47:17,478 DEBUG [main] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-04-14 22:47:17,479 DEBUG [main] PlatformDependent0:954 - Java version: 17
+ 2022-04-14 22:47:17,481 DEBUG [main] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-04-14 22:47:17,482 DEBUG [main] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-04-14 22:47:17,483 DEBUG [main] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-04-14 22:47:17,483 DEBUG [main] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-04-14 22:47:17,483 DEBUG [main] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-04-14 22:47:17,484 DEBUG [main] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
+ 2022-04-14 22:47:17,486 DEBUG [main] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-04-14 22:47:17,486 DEBUG [main] PlatformDependent:1116 - sun.misc.Unsafe: available
+ 2022-04-14 22:47:17,501 DEBUG [main] PlatformDependent:1227 - maxDirectMemory: 4246732800 bytes (maybe)
+ 2022-04-14 22:47:17,501 DEBUG [main] PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\masun001\AppData\Local\Temp (java.io.tmpdir)
+ 2022-04-14 22:47:17,503 DEBUG [main] PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-04-14 22:47:17,503 DEBUG [main] PlatformDependent:1076 - Platform: Windows
+ 2022-04-14 22:47:17,504 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-04-14 22:47:17,504 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-04-14 22:47:17,505 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-04-14 22:47:17,506 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-04-14 22:47:17,512 DEBUG [main] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-04-14 22:47:17,526 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-04-14 22:47:17,526 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-04-14 22:47:17,683 DEBUG [main] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-04-14 22:47:17,683 DEBUG [main] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-04-14 22:47:17,702 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+ 2022-04-14 22:47:17,709 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+ 2022-04-14 22:47:17,709 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-04-14 22:47:17,795 DEBUG [main] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 16
+ 2022-04-14 22:47:17,796 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 16
+ 2022-04-14 22:47:17,796 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-04-14 22:47:17,796 DEBUG [main] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 9
+ 2022-04-14 22:47:17,796 DEBUG [main] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 4194304
+ 2022-04-14 22:47:17,797 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-04-14 22:47:17,797 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-04-14 22:47:17,797 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-04-14 22:47:17,797 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-04-14 22:47:17,797 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-04-14 22:47:17,797 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: false
+ 2022-04-14 22:47:17,798 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-04-14 22:47:17,808 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-04-14 22:47:17,809 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-04-14 22:47:17,809 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-04-14 22:47:18,412 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 34860 (auto-detected)
+ 2022-04-14 22:47:18,413 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+ 2022-04-14 22:47:18,414 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+ 2022-04-14 22:47:18,421 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-04-14 22:47:18,422 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-04-14 22:47:18,445 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 50:eb:71:ff:fe:2e:51:e4 (auto-detected)
+ 2022-04-14 22:47:18,477 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-04-14 22:47:18,477 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-04-14 22:47:18,477 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@31f0d0ce
+ 2022-04-14 22:47:18,490 DEBUG [AsyncHttpClient-1-2] NettyConnectListener:73 - Using new Channel '[id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]' for 'POST' to '/session'
+ 2022-04-14 22:47:18,498 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-04-14 22:47:18,499 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+ 2022-04-14 22:47:18,499 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+ 2022-04-14 22:47:18,499 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+ 2022-04-14 22:47:19,677 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-04-14 22:47:19,680 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Length: 365
+Content-Type: application/json; charset=utf-8
+host: localhost:52628
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 791
+
+ 2022-04-14 22:47:19,689 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:52628 for channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]
+ 2022-04-14 22:47:19,816 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:52628 : 1
+ 2022-04-14 22:47:19,860 DEBUG [AsyncHttpClient-1-3] NettyConnectListener:73 - Using new Channel '[id: 0xc3e31664, L:/127.0.0.1:56485 - R:localhost/127.0.0.1:56466]' for 'GET' to '/json/version'
+ 2022-04-14 22:47:19,864 DEBUG [AsyncHttpClient-1-3] HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+host: localhost:56466
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+content-length: 426
+
+ 2022-04-14 22:47:19,865 DEBUG [AsyncHttpClient-1-3] ChannelManager:270 - Adding key: http://localhost:56466 for channel [id: 0xc3e31664, L:/127.0.0.1:56485 - R:localhost/127.0.0.1:56466]
+ 2022-04-14 22:47:19,875 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x79f3cd4f87b238fe
+ 2022-04-14 22:47:19,879 DEBUG [AsyncHttpClient-1-4] NettyConnectListener:73 - Using new Channel '[id: 0x4f95c8b9, L:/127.0.0.1:56488 - R:localhost/127.0.0.1:56466]' for 'GET' to '/devtools/browser/af0e2263-955f-471f-b3a6-e7d4f1a61ebe'
+ 2022-04-14 22:47:19,883 DEBUG [AsyncHttpClient-1-4] WebSocketHandler:105 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/af0e2263-955f-471f-b3a6-e7d4f1a61ebe HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: Z6VjXi8H5fJJG4jciRt+VQ==
+sec-websocket-version: 13
+origin: http://localhost:56466
+host: localhost:56466
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: GSVPLAztJyp9Ji+6mQyE5hELD5U=
+
+ 2022-04-14 22:47:20,917 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:52628 : 1
+ 2022-04-14 22:47:20,917 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:20,934 DEBUG [Forwarding get on session e8830cb71d7cfc6ccfd7c02ae5bb84d4 to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]' for 'POST' to 'http://localhost:52628/session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/url'
+ 2022-04-14 22:47:20,935 DEBUG [Forwarding get on session e8830cb71d7cfc6ccfd7c02ae5bb84d4 to remote] NettyRequestSender:251 - Using open Channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628] for POST '/session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/url'
+ 2022-04-14 22:47:22,018 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:23,116 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:24,222 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:25,325 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:26,422 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:27,516 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:28,620 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:29,717 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:30,819 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:31,916 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:33,018 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:33,819 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/url HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Length: 72
+Content-Type: application/json; charset=utf-8
+host: localhost:52628
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+ 2022-04-14 22:47:33,820 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:52628 for channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]
+ 2022-04-14 22:47:33,833 DEBUG [Forwarding maximizeCurrentWindow on session e8830cb71d7cfc6ccfd7c02ae5bb84d4 to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]' for 'POST' to 'http://localhost:52628/session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/window/maximize'
+ 2022-04-14 22:47:33,833 DEBUG [Forwarding maximizeCurrentWindow on session e8830cb71d7cfc6ccfd7c02ae5bb84d4 to remote] NettyRequestSender:251 - Using open Channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628] for POST '/session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/window/maximize'
+ 2022-04-14 22:47:34,032 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/window/maximize HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:52628
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 52
+
+ 2022-04-14 22:47:34,034 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:52628 for channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]
+ 2022-04-14 22:47:34,124 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:52628 : 1
+ 2022-04-14 22:47:34,124 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:35,073 DEBUG [Forwarding setTimeout on session e8830cb71d7cfc6ccfd7c02ae5bb84d4 to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]' for 'POST' to 'http://localhost:52628/session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/timeouts'
+ 2022-04-14 22:47:35,074 DEBUG [Forwarding setTimeout on session e8830cb71d7cfc6ccfd7c02ae5bb84d4 to remote] NettyRequestSender:251 - Using open Channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628] for POST '/session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/timeouts'
+ 2022-04-14 22:47:35,079 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/timeouts HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:52628
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+ 2022-04-14 22:47:35,080 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:52628 for channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]
+ 2022-04-14 22:47:35,216 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:52628 : 1
+ 2022-04-14 22:47:35,217 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:36,139  INFO [main] SovTechContactUsForm:36 - Enter username
+ 2022-04-14 22:47:36,145 DEBUG [Forwarding findElement on session e8830cb71d7cfc6ccfd7c02ae5bb84d4 to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]' for 'POST' to 'http://localhost:52628/session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/element'
+ 2022-04-14 22:47:36,146 DEBUG [Forwarding findElement on session e8830cb71d7cfc6ccfd7c02ae5bb84d4 to remote] NettyRequestSender:251 - Using open Channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628] for POST '/session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/element'
+ 2022-04-14 22:47:36,186 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/e8830cb71d7cfc6ccfd7c02ae5bb84d4/element HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Length: 101
+Content-Type: application/json; charset=utf-8
+host: localhost:52628
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 1073
+
+ 2022-04-14 22:47:36,187 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:52628 for channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]
+ 2022-04-14 22:47:36,240 DEBUG [Driver Command Executor] NettyRequestSender:593 - Using pooled Channel '[id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]' for 'DELETE' to 'http://localhost:52628/session/e8830cb71d7cfc6ccfd7c02ae5bb84d4'
+ 2022-04-14 22:47:36,241 DEBUG [Driver Command Executor] NettyRequestSender:251 - Using open Channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628] for DELETE '/session/e8830cb71d7cfc6ccfd7c02ae5bb84d4'
+ 2022-04-14 22:47:36,243 DEBUG [AsyncHttpClient-1-4] WebSocketHandler:126 - Channel Closed: [id: 0x4f95c8b9, L:/127.0.0.1:56488 ! R:localhost/127.0.0.1:56466] with attribute NettyResponseFuture{currentRetry=5,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@176757d0,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@24f73aa0,
+	future=java.util.concurrent.CompletableFuture@477f92c9[Completed normally],
+	uri=ws://localhost:56466/devtools/browser/af0e2263-955f-471f-b3a6-e7d4f1a61ebe,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1649969239894}
+ 2022-04-14 22:47:36,245 DEBUG [AsyncHttpClient-1-4] ChannelManager:315 - Closing Channel [id: 0x4f95c8b9, L:/127.0.0.1:56488 ! R:localhost/127.0.0.1:56466] 
+ 2022-04-14 22:47:36,316 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:56466 : 1
+ 2022-04-14 22:47:36,351 DEBUG [AsyncHttpClient-1-3] HttpHandler:159 - Unexpected I/O exception on channel [id: 0xc3e31664, L:/127.0.0.1:56485 - R:localhost/127.0.0.1:56466]
+ java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-14 22:47:36,354 DEBUG [AsyncHttpClient-1-3] ChannelManager:315 - Closing Channel [id: 0xc3e31664, L:/127.0.0.1:56485 - R:localhost/127.0.0.1:56466] 
+ 2022-04-14 22:47:36,356 DEBUG [AsyncHttpClient-1-3] HttpHandler:126 - Channel Closed: [id: 0xc3e31664, L:/127.0.0.1:56485 ! R:localhost/127.0.0.1:56466] with attribute DISCARD
+ 2022-04-14 22:47:36,383 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/e8830cb71d7cfc6ccfd7c02ae5bb84d4 HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:52628
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+ 2022-04-14 22:47:36,383 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:52628 for channel [id: 0x4321b704, L:/127.0.0.1:56460 - R:localhost/127.0.0.1:52628]
+ 2022-04-14 22:47:36,562 DEBUG [AsyncHttpClient-1-2] HttpHandler:126 - Channel Closed: [id: 0x4321b704, L:/127.0.0.1:56460 ! R:localhost/127.0.0.1:52628] with attribute DISCARD
+ 2022-04-15 08:56:08,359 DEBUG [main] InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+ 2022-04-15 08:56:08,368 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-04-15 08:56:08,368 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-04-15 08:56:08,373 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@71b3bc45
+ 2022-04-15 08:56:08,391 DEBUG [main] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-04-15 08:56:08,391 DEBUG [main] PlatformDependent0:954 - Java version: 17
+ 2022-04-15 08:56:08,392 DEBUG [main] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-04-15 08:56:08,393 DEBUG [main] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-04-15 08:56:08,394 DEBUG [main] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-04-15 08:56:08,394 DEBUG [main] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-04-15 08:56:08,395 DEBUG [main] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-04-15 08:56:08,396 DEBUG [main] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
+ 2022-04-15 08:56:08,398 DEBUG [main] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-04-15 08:56:08,398 DEBUG [main] PlatformDependent:1116 - sun.misc.Unsafe: available
+ 2022-04-15 08:56:08,415 DEBUG [main] PlatformDependent:1227 - maxDirectMemory: 4246732800 bytes (maybe)
+ 2022-04-15 08:56:08,416 DEBUG [main] PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\masun001\AppData\Local\Temp (java.io.tmpdir)
+ 2022-04-15 08:56:08,416 DEBUG [main] PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-04-15 08:56:08,417 DEBUG [main] PlatformDependent:1076 - Platform: Windows
+ 2022-04-15 08:56:08,418 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-04-15 08:56:08,418 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-04-15 08:56:08,419 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-04-15 08:56:08,419 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-04-15 08:56:08,426 DEBUG [main] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-04-15 08:56:08,450 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-04-15 08:56:08,450 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-04-15 08:56:08,621 DEBUG [main] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-04-15 08:56:08,621 DEBUG [main] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-04-15 08:56:08,648 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+ 2022-04-15 08:56:08,658 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+ 2022-04-15 08:56:08,658 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-04-15 08:56:08,782 DEBUG [main] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 16
+ 2022-04-15 08:56:08,783 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 16
+ 2022-04-15 08:56:08,783 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-04-15 08:56:08,783 DEBUG [main] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 9
+ 2022-04-15 08:56:08,783 DEBUG [main] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 4194304
+ 2022-04-15 08:56:08,783 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-04-15 08:56:08,783 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-04-15 08:56:08,783 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-04-15 08:56:08,784 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-04-15 08:56:08,784 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-04-15 08:56:08,784 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: false
+ 2022-04-15 08:56:08,784 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-04-15 08:56:08,797 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-04-15 08:56:08,797 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-04-15 08:56:08,797 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-04-15 08:56:09,444 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 38256 (auto-detected)
+ 2022-04-15 08:56:09,447 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+ 2022-04-15 08:56:09,447 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+ 2022-04-15 08:56:09,456 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-04-15 08:56:09,457 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-04-15 08:56:09,480 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 50:eb:71:ff:fe:2e:51:e4 (auto-detected)
+ 2022-04-15 08:56:09,529 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-04-15 08:56:09,529 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-04-15 08:56:09,529 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@757f9b4d
+ 2022-04-15 08:56:09,543 DEBUG [AsyncHttpClient-1-2] NettyConnectListener:73 - Using new Channel '[id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]' for 'POST' to '/session'
+ 2022-04-15 08:56:09,552 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-04-15 08:56:09,553 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+ 2022-04-15 08:56:09,553 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+ 2022-04-15 08:56:09,553 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+ 2022-04-15 08:56:11,708 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-04-15 08:56:11,710 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Length: 365
+Content-Type: application/json; charset=utf-8
+host: localhost:57824
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 793
+
+ 2022-04-15 08:56:11,715 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:57824 for channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]
+ 2022-04-15 08:56:11,833 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:57824 : 1
+ 2022-04-15 08:56:11,843 DEBUG [AsyncHttpClient-1-3] NettyConnectListener:73 - Using new Channel '[id: 0x8f0cb68f, L:/127.0.0.1:55223 - R:localhost/127.0.0.1:55215]' for 'GET' to '/json/version'
+ 2022-04-15 08:56:11,847 DEBUG [AsyncHttpClient-1-3] HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+host: localhost:55215
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+content-length: 429
+
+ 2022-04-15 08:56:11,848 DEBUG [AsyncHttpClient-1-3] ChannelManager:270 - Adding key: http://localhost:55215 for channel [id: 0x8f0cb68f, L:/127.0.0.1:55223 - R:localhost/127.0.0.1:55215]
+ 2022-04-15 08:56:11,860 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xca20b952c803c816
+ 2022-04-15 08:56:11,867 DEBUG [AsyncHttpClient-1-4] NettyConnectListener:73 - Using new Channel '[id: 0x75a6d919, L:/127.0.0.1:55224 - R:localhost/127.0.0.1:55215]' for 'GET' to '/devtools/browser/2689e77b-48d5-4c0c-b358-345f066e58ac'
+ 2022-04-15 08:56:11,874 DEBUG [AsyncHttpClient-1-4] WebSocketHandler:105 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/2689e77b-48d5-4c0c-b358-345f066e58ac HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: MfF0mBx8dOdyAeaNdS0KFA==
+sec-websocket-version: 13
+origin: http://localhost:55215
+host: localhost:55215
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: Eag+EVMvixnFtBAE3yMuPg4v+FM=
+
+ 2022-04-15 08:56:12,930 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:57824 : 1
+ 2022-04-15 08:56:12,930 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:55215 : 1
+ 2022-04-15 08:56:12,930 DEBUG [Forwarding get on session a9140b55364f0ab9f34f84f952fcf946 to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]' for 'POST' to 'http://localhost:57824/session/a9140b55364f0ab9f34f84f952fcf946/url'
+ 2022-04-15 08:56:12,931 DEBUG [Forwarding get on session a9140b55364f0ab9f34f84f952fcf946 to remote] NettyRequestSender:251 - Using open Channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824] for POST '/session/a9140b55364f0ab9f34f84f952fcf946/url'
+ 2022-04-15 08:56:14,037 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:55215 : 1
+ 2022-04-15 08:56:15,130 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:55215 : 1
+ 2022-04-15 08:56:16,230 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:55215 : 1
+ 2022-04-15 08:56:17,330 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:55215 : 1
+ 2022-04-15 08:56:18,439 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:55215 : 1
+ 2022-04-15 08:56:18,680 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/a9140b55364f0ab9f34f84f952fcf946/url HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Length: 72
+Content-Type: application/json; charset=utf-8
+host: localhost:57824
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+ 2022-04-15 08:56:18,681 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:57824 for channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]
+ 2022-04-15 08:56:18,685 DEBUG [Forwarding maximizeCurrentWindow on session a9140b55364f0ab9f34f84f952fcf946 to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]' for 'POST' to 'http://localhost:57824/session/a9140b55364f0ab9f34f84f952fcf946/window/maximize'
+ 2022-04-15 08:56:18,686 DEBUG [Forwarding maximizeCurrentWindow on session a9140b55364f0ab9f34f84f952fcf946 to remote] NettyRequestSender:251 - Using open Channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824] for POST '/session/a9140b55364f0ab9f34f84f952fcf946/window/maximize'
+ 2022-04-15 08:56:18,922 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/a9140b55364f0ab9f34f84f952fcf946/window/maximize HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:57824
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 52
+
+ 2022-04-15 08:56:18,923 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:57824 for channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]
+ 2022-04-15 08:56:19,530 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:57824 : 1
+ 2022-04-15 08:56:19,530 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:55215 : 1
+ 2022-04-15 08:56:19,949 DEBUG [Forwarding setTimeout on session a9140b55364f0ab9f34f84f952fcf946 to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]' for 'POST' to 'http://localhost:57824/session/a9140b55364f0ab9f34f84f952fcf946/timeouts'
+ 2022-04-15 08:56:19,950 DEBUG [Forwarding setTimeout on session a9140b55364f0ab9f34f84f952fcf946 to remote] NettyRequestSender:251 - Using open Channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824] for POST '/session/a9140b55364f0ab9f34f84f952fcf946/timeouts'
+ 2022-04-15 08:56:19,952 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/a9140b55364f0ab9f34f84f952fcf946/timeouts HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:57824
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+ 2022-04-15 08:56:19,953 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:57824 for channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]
+ 2022-04-15 08:56:20,631 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:57824 : 1
+ 2022-04-15 08:56:20,631 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:55215 : 1
+ 2022-04-15 08:56:20,989  INFO [main] SovTechContactUsForm:36 - Enter username
+ 2022-04-15 08:56:20,990 DEBUG [Forwarding findElement on session a9140b55364f0ab9f34f84f952fcf946 to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]' for 'POST' to 'http://localhost:57824/session/a9140b55364f0ab9f34f84f952fcf946/element'
+ 2022-04-15 08:56:20,991 DEBUG [Forwarding findElement on session a9140b55364f0ab9f34f84f952fcf946 to remote] NettyRequestSender:251 - Using open Channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824] for POST '/session/a9140b55364f0ab9f34f84f952fcf946/element'
+ 2022-04-15 08:56:21,006 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/a9140b55364f0ab9f34f84f952fcf946/element HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Length: 101
+Content-Type: application/json; charset=utf-8
+host: localhost:57824
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 1074
+
+ 2022-04-15 08:56:21,007 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:57824 for channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]
+ 2022-04-15 08:56:21,034 DEBUG [Driver Command Executor] NettyRequestSender:593 - Using pooled Channel '[id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]' for 'DELETE' to 'http://localhost:57824/session/a9140b55364f0ab9f34f84f952fcf946'
+ 2022-04-15 08:56:21,034 DEBUG [Driver Command Executor] NettyRequestSender:251 - Using open Channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824] for DELETE '/session/a9140b55364f0ab9f34f84f952fcf946'
+ 2022-04-15 08:56:21,035 DEBUG [AsyncHttpClient-1-4] WebSocketHandler:126 - Channel Closed: [id: 0x75a6d919, L:/127.0.0.1:55224 ! R:localhost/127.0.0.1:55215] with attribute NettyResponseFuture{currentRetry=5,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@14c5aebe,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@259c4fd7,
+	future=java.util.concurrent.CompletableFuture@5100a98c[Completed normally],
+	uri=ws://localhost:55215/devtools/browser/2689e77b-48d5-4c0c-b358-345f066e58ac,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1650005771892}
+ 2022-04-15 08:56:21,037 DEBUG [AsyncHttpClient-1-4] ChannelManager:315 - Closing Channel [id: 0x75a6d919, L:/127.0.0.1:55224 ! R:localhost/127.0.0.1:55215] 
+ 2022-04-15 08:56:21,224 DEBUG [AsyncHttpClient-1-3] HttpHandler:159 - Unexpected I/O exception on channel [id: 0x8f0cb68f, L:/127.0.0.1:55223 - R:localhost/127.0.0.1:55215]
+ java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-15 08:56:21,228 DEBUG [AsyncHttpClient-1-3] ChannelManager:315 - Closing Channel [id: 0x8f0cb68f, L:/127.0.0.1:55223 - R:localhost/127.0.0.1:55215] 
+ 2022-04-15 08:56:21,238 DEBUG [AsyncHttpClient-1-3] HttpHandler:126 - Channel Closed: [id: 0x8f0cb68f, L:/127.0.0.1:55223 ! R:localhost/127.0.0.1:55215] with attribute DISCARD
+ 2022-04-15 08:56:21,273 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/a9140b55364f0ab9f34f84f952fcf946 HTTP/1.1
+User-Agent: selenium/4.1.3 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:57824
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+ 2022-04-15 08:56:21,274 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:57824 for channel [id: 0xc733d448, L:/127.0.0.1:55214 - R:localhost/127.0.0.1:57824]
+ 2022-04-15 08:56:21,421 DEBUG [AsyncHttpClient-1-2] HttpHandler:126 - Channel Closed: [id: 0xc733d448, L:/127.0.0.1:55214 ! R:localhost/127.0.0.1:57824] with attribute DISCARD
+ 
